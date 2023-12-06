@@ -18187,9 +18187,9 @@ p=b[2]
 return A.a([o*m+l*k+j*n,o*r+l*q+j*s,o*p[0]+l*p[1]+j*p[2]],t.n)},
 GN(){var s=0,r=A.P(t.H)
 var $async$GN=A.Q(function(a,b){if(a===1)return A.M(b,r)
-while(true)switch(s){case 0:A.nj("Connecting to mysql server...")
+while(true)switch(s){case 0:A.nj("Connecting to mysql server... testing")
 s=3
-return A.R(A.No("ssmsdb","127.0.0.1","santa1234",3306,"root"),$async$GN)
+return A.R(A.No("ssmsdb","10.122.0.4","santa1234",3306,"root"),$async$GN)
 case 3:s=2
 return A.R(b.W1(),$async$GN)
 case 2:A.nj("Connected")
